@@ -7,7 +7,7 @@
 section{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(360_F_527488145_kMOGbZg0KFNMUgpMNO1T5ZkvP1wLW6KO.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
 }
@@ -68,27 +68,11 @@ nav ul li:first-child::after{
 div{
     margin-top: 200px;
     text-align: center;
-    color: #fa4659;
+    color: #fefefd;
 }
 
 div h1{
-    font-size: 50px;
+    font-size: 200px;
     margin-bottom: 10px;
 }
 
-div button{
-    width: 180px;
-    height: 45px;
-    font-size: 20px;
-    color: #fa4659;
-    background: transparent;
-    border: 4px solid #fa4659;
-    border-radius: 20px;
-    margin-right: 20px;
-}
-
-div button:hover{
-    background: #fa4659;
-    color:#fff ;
-    transition: 0.5s
-}
