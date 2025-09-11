@@ -7,8 +7,7 @@
 section{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image.jpg);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(photo-1618424181497-157f25b6ddd5.jpg);
     background-size: cover;   
 }
 
@@ -16,11 +15,11 @@ header{
     width: 100%;
 }
 nav{
-    margin-left: 90px;
+    margin-left:90px;
 }
 
 nav h1{
-    color: #fa4659;
+    color: #46fa4f;
     display: inline-block;
     font-size: 60px;
     font-weight: 700;
@@ -36,12 +35,11 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    list-style: none;
     margin-right: 35px;
 }
 
 nav ul li a{
-    color: #fff;
+    color: #f26767;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
@@ -52,7 +50,7 @@ nav ul li::after{
     width: 100%;
     height: 4px;
     display: block;
-    background: #fa4659;
+    background: #46fa4f;
     margin-top: 10px;
 }
 
@@ -68,27 +66,14 @@ nav ul li:first-child::after{
 div{
     margin-top: 200px;
     text-align: center;
-    color: #fa4659;
+    color: #46fa4f;
 }
 
 div h1{
-    font-size: 50px;
     margin-bottom: 10px;
+    font-size: 90px;
+    
 }
 
-div button{
-    width: 180px;
-    height: 45px;
-    font-size: 20px;
-    color: #fa4659;
-    background: transparent;
-    border: 4px solid #fa4659;
-    border-radius: 20px;
-    margin-right: 20px;
-}
 
-div button:hover{
-    background: #fa4659;
-    color:#fff ;
-    transition: 0.5s
-}
+
